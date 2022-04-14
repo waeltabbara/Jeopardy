@@ -1,0 +1,51 @@
+body {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: lightgray;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+#game-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  margin: 10px auto;
+  border: 2px solid red;
+}
+
+#category-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 2px solid orange;
+}
+
+#clue-board {
+  flex-direction: column;
+  border: 2px solid blue;
+}
+
+.clue-row {
+  display: flex;
+  border: 2px solid orange;
+}
+
+.clue-box {
+  display: flex;
+  border: 2px solid green;
+  margin: 5px;
+  height: 100px;
+  flex: 1;
+}
